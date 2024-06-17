@@ -10,7 +10,6 @@ import { Button } from './ui/button';
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -18,6 +17,7 @@ import {
 } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
+import { sendEmail } from '../utils/send-email';
 
 const formSchema = z.object({
   username: z.string().min(2, {
@@ -33,7 +33,11 @@ const formSchema = z.object({
   }),
 });
 
+export type FormData = z.infer<typeof formSchema>;
+
 export function ContactForm() {
+
+  
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -44,25 +48,27 @@ export function ContactForm() {
       message: "",
     },
   });
-
-  async function onSubmit(values: z.infer<typeof formSchema>) {
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to send message');
-      }
-
-      console.log('Email sent successfully');
-    } catch (error) {
-      console.error(error);
+  
+  function onSubmit(data: z.infer<typeof formSchema>) {
+    // Parse and validate the data using Zod
+    const parsedData = formSchema.safeParse(data);
+  
+    if (!parsedData.success) {
+      console.error('Error validating form data:', parsedData.error);
+      return;
     }
+  
+    // Convert the validated data to an object with the required properties
+    const formData = {
+      message: parsedData.data.message,
+      username: parsedData.data.username,
+      email: parsedData.data.email,
+      phoneNumber: parsedData.data.phoneNumber,
+      subject: parsedData.data.subject,
+    };
+  
+    // Send the formData object to the server
+    sendEmail(formData);
   }
 
   return (

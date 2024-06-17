@@ -1,12 +1,6 @@
-import Image from "next/image";
-import Link from 'next/link'
+import React from 'react'
 import MaxWidthWrapper from '@/src/components/MaxWidthWrapper';
-import { ArrowRight } from 'lucide-react' 
-import { buttonVariants } from "../../components/ui/button";
 import { ContactForm } from '../../components/Form'
-  import { cn } from '../../lib/utils'
-
-  import React from 'react'
   
   const Contact = () => {
     return (
