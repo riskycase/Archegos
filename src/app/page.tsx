@@ -44,31 +44,22 @@ export default function Home() {
             </Link>
           </div>
           <div>
-            <div className="relative isolate">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-              >
-                {/* <div className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36,125rem] -translate-x-1/2  bg-gradient-to-tr from-[#81787c] to-[#923832] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'></div>  */}
-              </div>
 
-              <div className="mx-auto max-w-6x1 px-6 lg:px-8">
-                <div className="mt-10 flow-root sm:mt-24">
+              <div className="flex flex-row justify-center items-center mx-auto max-w-6x1 px-6 lg:px-8">
+                <div className="mt-10 md:mt-5 mr-10 sm:mt-24">
                   <Image
                     src={Wellness}
                     alt="product preview"
                     width={300}
                     height={300}
                     quality={100}
-                    className="rounded-full bg-white p-2 sm:p-8 md:p-10 shadow-2xl"
+                    className="rounded-full bg-white p-10 shadow-2xl"
                   />
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </MaxWidthWrapper>
-      {/*  */}
     </>
   );
 }

@@ -73,13 +73,14 @@ export function ContactForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+      <form onSubmit={form.handleSubmit(onSubmit)} >
+        <div className='flex flex-row space-x-10'>
         <FormField
           control={form.control}
           name="username"
           render={({ field }) => (
-            <FormItem>
-              <FormLabel>Username</FormLabel>
+            <FormItem >
+              <FormLabel>Name</FormLabel>
               <FormControl>
                 <Input placeholder="Username" {...field} />
               </FormControl>
@@ -100,6 +101,7 @@ export function ContactForm() {
             </FormItem>
           )}
         />
+        </div>
         <FormField
           control={form.control}
           name="email"
@@ -139,7 +141,7 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center mt-5">
           <Button type="submit">Submit</Button>
         </div>
       </form>
