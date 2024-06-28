@@ -17,10 +17,11 @@ import React from 'react'
 const Careers = () => {
   return (
     <div>
-    <div className='bg-zinc-200 h-screen'>
+    <div className='bg-zinc-200 h-fit'>
       <MaxWidthWrapper className='mb-12 mt-28 flex items-center justify-center text center'>
 
-        <div className='flex flex-row'>
+        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col-reverse lg:flex-row'>
       <div className='flex flex-col'>
 
 <div className='flex flex-col justify-center items-center p-7 text-center'>
@@ -32,7 +33,7 @@ const Careers = () => {
     className='bg-white ring-4 ring-zinc-400 bg-contain rounded-full p-4 mb-4'
     
     />
-    <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold w-42">MAKING AN IMPACT</h3>
+    <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold">MAKING AN IMPACT</h3>
     <p className="text-zinc-700 pl-8 pr-8 w-80">There&apos;s nothing more motivating than changing lives. From developing cutting-edge 
       pharmaceuticals to managing healthcare facilities, you can be sure your work at Archegos is making a real difference.
     </p>
@@ -47,7 +48,7 @@ const Careers = () => {
             className='bg-white ring-4 ring-zinc-400 bg-contain rounded-full p-4 mb-4'
             
             />
-            <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold w-42">CAREER GROWTH</h3>
+            <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold">CAREER GROWTH</h3>
             <p className="text-zinc-700 pl-8 pr-8 w-80">Grow as we grow - we&apos;ll provide comprehensive training programs and mentorship
               initiatives to help you advance, both professionally and personally.
             </p>
@@ -56,20 +57,22 @@ const Careers = () => {
 
 
 </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='pt-5 flex flex-col justify-center items-center lg:p-0'>
       <h1 className="mt-0  pb-5 flex items-start text-3xl font-bold tracking-wider 
         leading-12 text-red-800 text-center sm:text-3xl sm:mt-0 md:text-5xl md:p-10 ">WHY WORK WITH US?</h1>
-      <p className='text-center text-lg font-semibold text-zinc-700 w-90 p-6'>Archegos is driven by the vision to enhance lives – <br /> of our team members, our partners and our customers. 
+      <p className='text-center text-lg font-semibold text-zinc-700 w-90 p-6'>Archegos is driven by the vision to enhance lives – of our team members, our partners and our customers. 
         This vision has shaped our unique and inspiring culture, based on fundamental values.</p>
 
-      <div className="border-red-800 border-t-4 pt-10">
+      <div className="border-red-800 border-t-4 p-10">
         <Image
             src={Employees} alt='product preview'
             width={250}
             height={250}
             quality={100}
-            className='md:max-w-sm lg:max-w-md overflow-hidden sm:mt-0 rounded-full bg-white shadow-2xl sm:p-5'
+            className='p-10 md:max-w-sm lg:max-w-md overflow-hidden sm:mt-0 rounded-full bg-white shadow-2xl'
           />
+      </div>
+
       </div>
 
       </div>
@@ -89,7 +92,7 @@ const Careers = () => {
             className='bg-white ring-4 ring-zinc-400 bg-contain rounded-full p-4 mb-4'
             
             />
-            <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold w-42">INCLUSIVITY</h3>
+            <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold">INCLUSIVITY</h3>
             <p className="text-zinc-700 pl-8 pr-8 w-80">We are committed to creating a diverse and inclusive workplace where everyone feels valued and respected.
               With Archegos, you&apos;ll be part of a company that celebrates both individuality and teamwork.
             </p>
@@ -104,7 +107,7 @@ const Careers = () => {
           className='bg-white ring-4 ring-zinc-400 bg-contain rounded-full p-4 mb-4 w-55 h-30'
           
           />
-          <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold w-42">INNOVATION</h3>
+          <h3 className="mb-2 border-zinc-400 border-b-4 text-red-800 font-bold">INNOVATION</h3>
           <p className="text-zinc-700 pl-8 pr-8 w-80">Ideas are the heart of Archegos - ideas that transcend limits to meet evolving customer needs. 
             Your ideas will be encouraged and nurtured as we strive every day to transform the healthcare landscape.
           </p>
@@ -118,12 +121,12 @@ const Careers = () => {
       </MaxWidthWrapper>
     </div>
 
-    <div className="h-screen overflow-hidden">
+    <div className="h-fit overflow-hidden">
     <MaxWidthWrapper className='mb-12 mt-28 flex items-center justify-center text center overflow-hidden'>
-      <h1 className="mt-0 text-center pb-5 text-3xl font-bold tracking-wider 
-        leading-12 text-red-800 sm:text-3xl sm:mt-0 md:text-4xl md:mt-10 md:p-10">OPPORTUNITIES AT ARCHEGOS</h1>
-      <p className='text-xl text-zinc-700 text-center'>We&apos;re looking for motivated and talented people for the following positions:</p>
-      <div className='flex flex-row justify-center items-center space-x-12 p-12'>
+      <h1 className="p-10 mt-0 text-center pb-5 text-3xl font-bold tracking-wider 
+        leading-12 text-red-800 sm:text-3xl sm:mt-0 md:text-4xl md:mt-10">OPPORTUNITIES AT ARCHEGOS</h1>
+      <p className='text-xl text-zinc-700 text-center lg:p-10'>We&apos;re looking for motivated and talented people for the following positions:</p>
+      <div className='flex flex-col space-y-20 justify-center items-center lg:flex-row lg:space-x-12 p-12'>
         <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-100'>
           <div>
             <Image
@@ -198,7 +201,7 @@ const Careers = () => {
         </div>
       </div>
 
-      <p className='text-xl text-zinc-700 text-center'>Take the next big step in your career; join a dynamic team that is making a real difference in the world of healthcare.</p>
+      <p className='p-10 text-xl text-zinc-700 text-center lg:pb-20'>Take the next big step in your career; join a dynamic team that is making a real difference in the world of healthcare.</p>
     </MaxWidthWrapper>
     </div>
 

@@ -7,9 +7,9 @@ import Logo from "./assets/Logo.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="sticky h-15 inset-x-0 top-0 z-30 w-full border border-gray-200 bg-white backdrop-blur-lg transition-all">
+    <nav className="sticky h-15 inset-x-0 top-0 z-30 w-full border border-zinc-200 border-b-2 bg-white backdrop-blur-lg transition-all">
       <MaxWidthWrapper>
-        <div className="flex h-14 items-center justify-between border-b border-zinc-200">
+        <div className="flex h-14 items-center justify-between">
           {/* separate links  */}
 
           <div>

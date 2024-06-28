@@ -11,31 +11,32 @@ import Email from '../../components/icons/envelope-solid.svg'
       <div>
       <div >
         <MaxWidthWrapper className='mb-12 mt-28 flex flex-col items-center justify-center text center'>
-        <div className='flex flex-col sm:flex-col sm:justify-center sm:items-center md:flex-row md:mt-4 md:pl-10 md:pr-10'>
-          <div className='flex flex-col'>
-            <h1 className="mt-5 flex flex-row justify-center sm:items-center md:items-start text-2xl font-bold tracking-wide text-red-800 text-center sm:text-2xl md:text-5xl">CONTACT US</h1>
-            <p className='ml-20 text-md w-80 text-zinc-700 md:text-xl md:ml-0 leading-7 mt-5 border-red-800 pb-10 border-b-4'>Do connect with us if you&apos;re interested in stocking or retailing our product range, or entering into a business partnership</p>
-            <div className='h-60 w-80 flex flex-row justify-center items-center pt-20 ml-9 md:ml-0'>
+        <div className='flex flex-col md:flex-row md:mt-4 md:pl-10 md:pr-10'>
+          <div className='flex flex-col justify-center items-center'>
+            <h1 className="mt-5 flex flex-row justify-center items-center md:items-start text-3xl font-bold tracking-wide text-red-800 text-center sm:text-3xl md:text-5xl">CONTACT US</h1>
+            <p className='text-md flex flex-row justify-center items-center w-80 text-zinc-700 md:text-xl leading-7 mt-5 border-red-800 pb-10 border-b-4'>Do connect with us if you&apos;re interested in stocking or retailing our product range, or entering into a business partnership</p>
+            <div className='pt-20'>
             
             <Image
                     src={Handshake} alt='product preview'
                     width={250}
                     height={250}
                     quality={100}
-                    className='p-10 ml-20 grow-0 rounded-full bg-white md:ml-0 shadow-2xl'
+                    className='p-10 grow-0 rounded-full bg-white md:ml-0 shadow-2xl'
                   />
             </div>
 
             
           </div>
 
+          <div className='flex justify-center items-center'>
             <div className='mt-20 flex flex-col justify-center items-center border-zinc-200 border-2 rounded-md h-fit w-fit p-5 pl-20 pr-20 md:mt-12 md:ml-20'>
               <p className='flex flex-row justify-center items-center text-red-800 font-semibold text-2xl mb-10'>Send us a message</p>
               
                 <ContactForm />
               </div>
 
-            
+          </div>  
             </div>
 
         </MaxWidthWrapper>
