@@ -82,7 +82,7 @@ export default function Home() {
       <div className="bg-zinc-200 h-fit pt-20 file:flex flex-col justify-between items-center lg:flex-row">
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text center">
 
-      <div className="flex flex-col lg:flex-row justify-center items-center mx-auto max-w-6x1 px-6 lg:p-8">
+      <div className="flex flex-col space-y-20 lg:flex-row justify-center items-center mx-auto max-w-6x1 px-6 lg:p-8">
           <div className="flex flex-col justify-center items-center space-y-10 mr-10">
             <h1 className="text-3xl text-red-800 font-bold md:text-4xl lg:text-4xl">
               OUR PRODUCTS

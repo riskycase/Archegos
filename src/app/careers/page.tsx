@@ -10,7 +10,7 @@ import People from "../../components/icons/people-roof-solid.svg";
 import Bulb from "../../components/icons/lightbulb-solid.svg";
 import Sales from "../../components/assets/sales_rep.jpg";
 import Business from "../../components/assets/business-manager.jpg";
-import Marketing from "../../components/assets/marketing.jpg";
+import Marketing from "../../components/assets/Business-Dev-Manager.jpg";
 
 import React from "react";
 
@@ -138,22 +138,22 @@ const Careers = () => {
       <h1 className="p-10 mt-0 text-center pb-5 text-3xl font-bold tracking-wider 
         leading-12 text-red-800 sm:text-3xl sm:mt-0 md:text-4xl md:mt-10">OPPORTUNITIES AT ARCHEGOS</h1>
       <p className='text-xl text-zinc-700 text-center lg:p-10'>We&apos;re looking for motivated and talented people for the following positions:</p>
-      <div className='flex flex-col space-y-20 justify-center items-center lg:flex-row lg:space-x-12 p-12'>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-100'>
+      <div className='flex flex-col space-y-20 justify-center items-center lg:flex-row lg:position-absolute lg:space-x-12 lg:space-y-0 p-12'>
+        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
           <div>
             <Image
           src={Sales} alt='product preview'
-          width={70}
-          height={60}
+          width={980}
+          height={720}
           quality={100}
           className='p-6 pb-10 w-auto h-60'
           
           />
           </div>
-          <p className='text-lg text-red-800 font-semibold'>Pharmaceutical Sales Representative</p>
+          <p className='text-lg text-red-800 font-semibold text-center'>Pharmaceutical Sales Representative</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/6vFPTiMvkgi4tQU69"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -163,12 +163,12 @@ const Careers = () => {
           </Link>
           </div>
         </div>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-100'>
+        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
           <div>
             <Image
           src={Business} alt='product preview'
-          width={50}
-          height={60}
+          width={2121}
+          height={1414}
           quality={100}
           className='p-6 pb-10 w-auto h-60'
           
@@ -177,7 +177,7 @@ const Careers = () => {
           <p className='text-lg text-red-800 font-semibold'>Business Development Manager</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/PPpoL7WshSwozgYDA"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -187,12 +187,12 @@ const Careers = () => {
           </Link>
           </div>
         </div>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-100'>
+        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
           <div>
             <Image
           src={Marketing} alt='product preview'
-          width={70}
-          height={60}
+          width={574}
+          height={410}
           quality={100}
           className='p-6 pb-10 w-auto h-60'
           
@@ -201,7 +201,7 @@ const Careers = () => {
           <p className='text-lg text-red-800 font-semibold'>Marketing Specialist</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/CUy45gco8tB8VUtu6"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",

@@ -12,6 +12,8 @@ import {
     CardTitle,
   } from "../../components/ui/card"
   import { cn } from '../../lib/utils'
+  import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert"
+
 import p1 from '../../components/assets/meds/IMG_0212.png'
 import p2 from '../../components/assets/meds/IMG_0213.png'
 import p3 from '../../components/assets/meds/IMG_0214.png'
@@ -27,14 +29,21 @@ import p10 from '../../components/assets/meds/IMG_0221.png'
 
 export default function Products() {
   return (
-    <div className='bg-zinc-200 m-0'>
-        <MaxWidthWrapper className='mb-12 mt-28 flex flex-col items-center justify-center text center'>
+    <div className="bg-zinc-200 pb-20">
 
-        <div className='justify-center flex flex-wrap md:justify-between items-center p-10 space-y-20'>
-        <div className=' border-2 border-red-800 rounded-md mt-8'>
-        <Card className='max-h-full text-center flex flex-col items-center overflow-hidden'>
-            <CardHeader className='flex-shrink-0'>
-                <CardTitle className='text-lg'>NextPara 650</CardTitle>
+    <Alert>
+      <AlertTitle>Heads up!</AlertTitle>
+      <AlertDescription>
+        <p>Our product range will be available in leading online pharmacies starting August 2024.</p>
+      </AlertDescription>
+    </Alert>
+
+      <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text center">
+        <div className="justify-center flex flex-wrap md:justify-between items-center p-10 space-y-40">
+          <div className=" border-2 border-red-800 rounded-md mt-8">
+            <Card className="max-h-full text-center flex flex-col items-center overflow-hidden">
+              <CardHeader className="flex-shrink-0">
+                <CardTitle className="text-lg">NextPara 650</CardTitle>
                 <CardDescription>Card Description</CardDescription>
               </CardHeader>
               <CardContent className="flex-grow flex items-center justify-center overflow-hidden">

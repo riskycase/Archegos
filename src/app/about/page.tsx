@@ -135,7 +135,7 @@ export default function About() {
         </MaxWidthWrapper>
       </div>
 
-      <div className="bg-white h-fit flex-flex row position-absolute md:h-svh">
+      <div className="bg-white h-fit flex flex-row position-absolute md:h-svh">
         <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text center">
           <ol className="flex flex-col mt-15 p-10 justify-center items-center text-center sm:flex-col md:flex-row">
             <li className="flex flex-col justify-center items-center p-10">

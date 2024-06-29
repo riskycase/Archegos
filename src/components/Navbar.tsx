@@ -5,17 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { buttonVariants } from "./ui/button";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "./ui/alert-dialog"
 
 import Logo from "./assets/Logo.jpg";
 
@@ -68,8 +57,6 @@ const Navbar = () => {
             >
               ABOUT
             </Link>
-            <AlertDialog>
-            <AlertDialogTrigger>
             <Link
               href="/products"
               className={buttonVariants({
@@ -80,20 +67,6 @@ const Navbar = () => {
             >
               PRODUCTS
             </Link>
-            </AlertDialogTrigger>
-            <AlertDialogContent>
-              <AlertDialogHeader>
-                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-                <AlertDialogDescription>
-                  This action cannot be undone. This will permanently delete your account
-                  and remove your data from our servers.
-                </AlertDialogDescription>
-              </AlertDialogHeader>
-              <AlertDialogFooter>
-                <AlertDialogCancel onClick={handleCloseDialog}>Cancel</AlertDialogCancel>
-              </AlertDialogFooter>
-            </AlertDialogContent>
-          </AlertDialog>
 
             
             <Link
