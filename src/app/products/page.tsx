@@ -75,6 +75,7 @@ export default function Products() {
               </Card>
             </div>
           ))}
+
         </div>
       </MaxWidthWrapper>
     </div>
