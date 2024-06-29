@@ -31,9 +31,9 @@ export default function Products() {
   return (
     <div className="bg-zinc-200 pb-20">
 
-    <Alert>
-      <AlertTitle>Heads up!</AlertTitle>
-      <AlertDescription>
+    <Alert className="p-4">
+      <AlertTitle className="text-center">Coming soon!</AlertTitle>
+      <AlertDescription className="text-center">
         <p>Our product range will be available in leading online pharmacies starting August 2024.</p>
       </AlertDescription>
     </Alert>
