@@ -1,10 +1,10 @@
-// Form.tsx
 "use client"
 
 import React from 'react';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+import { useToast } from "./ui/use-toast";
 
 import { Button } from './ui/button';
 import {
@@ -19,6 +19,7 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { sendEmail } from '../utils/send-email';
 
+// ... (keep your formSchema and FormData type as they are)
 const formSchema = z.object({
   username: z.string().min(2, {
     message: "Username must be at least 2 characters.",
@@ -36,7 +37,7 @@ const formSchema = z.object({
 export type FormData = z.infer<typeof formSchema>;
 
 export function ContactForm() {
-
+  const { toast } = useToast();
   
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -49,16 +50,19 @@ export function ContactForm() {
     },
   });
   
-  function onSubmit(data: z.infer<typeof formSchema>) {
-    // Parse and validate the data using Zod
+  async function onSubmit(data: z.infer<typeof formSchema>) {
     const parsedData = formSchema.safeParse(data);
   
     if (!parsedData.success) {
       console.error('Error validating form data:', parsedData.error);
+      toast({
+        title: "Error",
+        description: "There was an error with your form submission. Please check your inputs.",
+        variant: "destructive",
+      });
       return;
     }
   
-    // Convert the validated data to an object with the required properties
     const formData = {
       message: parsedData.data.message,
       username: parsedData.data.username,
@@ -67,8 +71,21 @@ export function ContactForm() {
       subject: parsedData.data.subject,
     };
   
-    // Send the formData object to the server
-    sendEmail(formData);
+    try {
+      await sendEmail(formData);
+      toast({
+        title: "Thank you for your message!",
+        description: "We will be in touch with you shortly",
+      });
+      form.reset(); // Reset the form after successful submission
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast({
+        title: "Error: Failed to send your message.",
+        description: "Please try again.",
+        variant: "destructive",
+      });
+    }
   }
 
   return (

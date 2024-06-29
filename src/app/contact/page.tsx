@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from 'react'
 import MaxWidthWrapper from '@/src/components/MaxWidthWrapper';
 import { ContactForm } from '../../components/Form'
+import { Toaster } from "../../components/ui/toaster"
 import Handshake from '../../components/assets/handshake.jpg'
 import Call from '../../components/icons/phone-solid.svg'
 import Email from '../../components/icons/envelope-solid.svg'
@@ -11,7 +12,7 @@ import Email from '../../components/icons/envelope-solid.svg'
       <div>
       <div >
         <MaxWidthWrapper className='mb-12 mt-28 flex flex-col items-center justify-center text center'>
-        <div className='flex flex-col md:flex-row md:mt-4 md:pl-10 md:pr-10'>
+        <div className='flex flex-col justify-center items-center md:flex-row md:mt-4 md:pl-10 md:pr-10'>
           <div className='flex flex-col justify-center items-center'>
             <h1 className="mt-5 flex flex-row justify-center items-center md:items-start text-3xl font-bold tracking-wide text-red-800 text-center sm:text-3xl md:text-5xl">CONTACT US</h1>
             <p className='text-md flex flex-row justify-center items-center w-80 text-zinc-700 md:text-xl leading-7 mt-5 border-red-800 pb-10 border-b-4'>Do connect with us if you&apos;re interested in stocking or retailing our product range, or entering into a business partnership</p>
@@ -34,6 +35,7 @@ import Email from '../../components/icons/envelope-solid.svg'
               <p className='flex flex-row justify-center items-center text-red-800 font-semibold text-2xl mb-10'>Send us a message</p>
               
                 <ContactForm />
+                <Toaster />
               </div>
 
           </div>  
