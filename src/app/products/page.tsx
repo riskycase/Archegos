@@ -42,8 +42,8 @@ export default function Products() {
   return (
     <div className="bg-zinc-200 pb-20">
       <Alert>
-        <AlertTitle>Heads up!</AlertTitle>
-        <AlertDescription>
+        <AlertTitle className="text-center">Coming soon!</AlertTitle>
+        <AlertDescription className="text-center">
           <p>
             Our product range will be available in leading online pharmacies
             starting August 2024.
@@ -52,7 +52,7 @@ export default function Products() {
       </Alert>
 
       <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-80 p-10 w-fit">
           {products.map((product, index) => (
             <div key={index} className="border-2 border-red-800 rounded-md">
               <Card className="max-h-full text-center flex flex-col items-center overflow-hidden">

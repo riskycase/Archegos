@@ -49,8 +49,8 @@ export default function Home() {
 
 
 
-          <div className="flex flex-col lg:flex-row justify-center items-center text-center pb-20 pt-10 sm:pb-0">
-            <div className="p-8 pt-4 pb-4 mt-5 text-zinc-700 sm:text-lg sm:mt-0 sm:pb-0">
+          <div className="flex flex-col pt-0 lg:flex-row justify-center items-center text-center pb-20 sm:pt-10">
+            <div className="p-8 pt-0 pb-4 mt-0 text-zinc-700 sm:mt-5 sm:pt-4 sm:text-lg">
             <p>
             Archegos Ventures is a forward-thinking pharmaceutical company dedicated to <span className="font-semibold"> improving
              healthcare accessibility and quality in India. </span> We focus on developing and distributing <span className="font-semibold">high-quality,
@@ -83,8 +83,8 @@ export default function Home() {
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text center">
 
       <div className="flex flex-col space-y-20 lg:flex-row justify-center items-center mx-auto max-w-6x1 px-6 lg:p-8">
-          <div className="flex flex-col justify-center items-center space-y-10 mr-10">
-            <h1 className="text-3xl text-red-800 font-bold md:text-4xl lg:text-4xl">
+          <div className="flex flex-col justify-center items-center space-y-20 mr-10">
+            <h1 className="text-3xl text-red-800 font-bold md:text-4xl lg:text-4xl leading-20">
               OUR PRODUCTS
             </h1>
             <Image 

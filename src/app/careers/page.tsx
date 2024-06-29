@@ -3,7 +3,7 @@ import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "../../components/ui/button";
-import Employees from "../../components/assets/employees.jpeg";
+import Employees from "../../components/assets/emp.jpg";
 import Star from "../../components/icons/star-solid.svg";
 import Stairs from "../../components/icons/stairs-solid.svg";
 import People from "../../components/icons/people-roof-solid.svg";
