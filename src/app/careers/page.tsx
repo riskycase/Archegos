@@ -141,7 +141,7 @@ const Careers = () => {
           <p className='text-lg text-red-800 font-semibold'>Pharmaceutical Sales Representative</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/6vFPTiMvkgi4tQU69"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -165,7 +165,7 @@ const Careers = () => {
           <p className='text-lg text-red-800 font-semibold'>Business Development Manager</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/PPpoL7WshSwozgYDA"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -189,7 +189,7 @@ const Careers = () => {
           <p className='text-lg text-red-800 font-semibold'>Marketing Specialist</p>
           <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
           <Link
-              href="#"
+              href="https://forms.gle/CUy45gco8tB8VUtu6"
               className={buttonVariants({
                 variant: "ghost",
                 size: "sm",
@@ -201,7 +201,7 @@ const Careers = () => {
         </div>
       </div>
 
-      <p className='p-10 text-xl text-zinc-700 text-center lg:pb-20'>Take the next big step in your career; join a dynamic team that is making a real difference in the world of healthcare.</p>
+      <p className='p-10 text-xl text-zinc-700 text-center font-semibold lg:pb-20'>Take the next big step in your career; join a dynamic team that is making a real difference in the world of healthcare.</p>
     </MaxWidthWrapper>
     </div>
 
