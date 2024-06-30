@@ -3,9 +3,9 @@ import React from 'react'
 import MaxWidthWrapper from '@/src/components/MaxWidthWrapper';
 import { ContactForm } from '../../components/Form'
 import { Toaster } from "../../components/ui/toaster"
-import Handshake from '/assets/handshake.jpg'
-import Call from '/components/icons/phone-solid.svg'
-import Email from '/components/icons/envelope-solid.svg'
+import Handshake from '../../../public/assets/handshake.jpg'
+import Call from '../../components/icons/phone-solid.svg'
+import Email from '../../components/icons/envelope-solid.svg'
   
   const Contact = () => {
     return (

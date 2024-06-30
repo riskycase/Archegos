@@ -6,7 +6,7 @@ import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { buttonVariants } from "./ui/button";
 
-import Logo from "/assets/Logo.jpg";
+import Logo from "../../public/assets/Logo.jpg";
 
 const Navbar = () => {
 

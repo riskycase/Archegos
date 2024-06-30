@@ -1,16 +1,15 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "../../components/ui/button";
-import Employees from "/assets/emp.jpg";
-import Star from "/icons/star-solid.svg";
-import Stairs from "/icons/stairs-solid.svg";
-import People from "/icons/people-roof-solid.svg";
-import Bulb from "/icons/lightbulb-solid.svg";
-import Sales from "/assets/sales_rep.jpg";
-import Business from "/assets/business-manager.jpg";
-import Marketing from "/assets/Business-Dev-Manager.jpg";
+import Employees from "../../../public/assets/emp.jpg";
+import Star from "../../components/icons/star-solid.svg";
+import Stairs from "../../components/icons/stairs-solid.svg";
+import People from "../../components/icons/people-roof-solid.svg";
+import Bulb from "../../components/icons/lightbulb-solid.svg";
+import Sales from "../../../public/assets/sales_rep.jpg";
+import Business from "../../../public/assets/business-manager.jpg";
+import Marketing from "../../../public/assets/Business-Dev-Manager.jpg";
 
 import React from "react";
 

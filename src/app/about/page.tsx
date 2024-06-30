@@ -1,14 +1,11 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { buttonVariants } from "../../components/ui/button";
-import Target from "/icons/target-final.svg";
-import Bow from "/assets/archer-final.png";
-import valueIcon from "/icons/scale-balanced-solid.svg";
-import csrIcon from "/icons/globe-solid.svg";
-import Gear from "/assets/gear.png";
-import Story from "/assets/story.jpg";
+import Target from "../../components/icons/target-final.svg";
+import Bow from "../../../public/assets/archer-final.png";
+import valueIcon from "../../components/icons/scale-balanced-solid.svg";
+import csrIcon from "../../components/icons/globe-solid.svg";
+import Gear from "../../../public/assets/gear.png";
+import Story from "../../../public/assets/story.jpg";
 
 export default function About() {
   return (
