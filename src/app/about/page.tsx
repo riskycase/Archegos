@@ -3,7 +3,7 @@ import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "../../components/ui/button";
-import Target from "/assets/target-final.svg";
+import Target from "/icons/target-final.svg";
 import Bow from "/assets/archer-final.png";
 import valueIcon from "/icons/scale-balanced-solid.svg";
 import csrIcon from "/icons/globe-solid.svg";
