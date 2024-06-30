@@ -50,6 +50,7 @@ export default function Products() {
                     src={product.image}
                     alt={product.title}
                     height={300}
+                    width={500}
                     quality={100}
                     className="p-6"
                   />
