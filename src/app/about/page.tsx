@@ -1,11 +1,11 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Target from "../../components/icons/target-final.svg";
-import Bow from "../../../public/assets/archer-final.png";
+import Bow from "/assets/archer-final.png";
 import valueIcon from "../../components/icons/scale-balanced-solid.svg";
 import csrIcon from "../../components/icons/globe-solid.svg";
-import Gear from "../../../public/assets/gear.png";
-import Story from "../../../public/assets/story.jpg";
+import Gear from "/assets/gear.png";
+import Story from "/assets/story.jpg";
 
 export default function About() {
   return (
