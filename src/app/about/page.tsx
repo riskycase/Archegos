@@ -1,11 +1,5 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
-import Target from "../../components/icons/target-final.svg";
-import Bow from "/assets/archer-final.png";
-import valueIcon from "../../components/icons/scale-balanced-solid.svg";
-import csrIcon from "../../components/icons/globe-solid.svg";
-import Gear from "/assets/gear.png";
-import Story from "/assets/story.jpg";
 
 export default function About() {
   return (
@@ -14,7 +8,7 @@ export default function About() {
         <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text center">
           <div className="max-w-full flex flex-col items-center justify-center lg:flex-row lg:space-x-10 sm:flex-col">
             <Image
-              src={Bow}
+              src="/assets/archer-final.png"
               alt="product preview"
               width={180}
               height={180}
@@ -33,7 +27,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src={Target}
+                    src="../../components/icons/target-final.svg"
                     alt="product preview"
                     width={40}
                     height={40}
@@ -48,7 +42,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src={Target}
+                    src="../../components/icons/target-final.svg"
                     alt="product preview"
                     width={40}
                     height={40}
@@ -64,7 +58,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src={Target}
+                    src="../../components/icons/target-final.svg"
                     alt="product preview"
                     width={40}
                     height={40}
@@ -92,7 +86,7 @@ export default function About() {
                 </h1>
                 <div className="w-60 pt-5 lg:w-80">
                   <Image
-                    src={Story}
+                    src="/assets/story.jpg"
                     alt="product preview"
                     width={800}
                     height={400}
@@ -137,7 +131,7 @@ export default function About() {
           <ol className="flex flex-col mt-15 p-10 justify-center items-center text-center sm:flex-col md:flex-row">
             <li className="flex flex-col justify-center items-center p-10">
               <Image
-                src={valueIcon}
+                src="../../components/icons/scale-balanced-solid.svg"
                 alt="product preview"
                 width={110}
                 quality={100}
@@ -158,7 +152,7 @@ export default function About() {
 
             <li className="flex flex-col justify-center items-center p-10">
               <Image
-                src={csrIcon}
+                src="../../components/icons/globe-solid.svg"
                 alt="product preview"
                 width={100}
                 height={100}
@@ -181,7 +175,7 @@ export default function About() {
           </ol>
           <div className="w-full flex justify-center items-center md:p-0 md:mt-7">
             <Image
-              src={Gear}
+              src="/assets/gear.png"
               alt="gear"
               width={500}
               height={500}
