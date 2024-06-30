@@ -45,7 +45,7 @@ export default function Products() {
         <AlertTitle className="text-center">Coming soon!</AlertTitle>
         <AlertDescription className="text-center">
           <p>
-            Our product range will be available in leading online pharmacies
+            Our product range will be in stock starting July 15 & available in leading online pharmacies
             starting August 2024.
           </p>
         </AlertDescription>

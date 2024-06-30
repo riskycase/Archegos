@@ -99,7 +99,7 @@ export function ContactForm() {
             <FormItem >
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Username" {...field} />
+                <Input placeholder="Name" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -159,7 +159,7 @@ export function ContactForm() {
           )}
         />
         <div className="w-full flex justify-center items-center mt-5">
-          <Button type="submit">Submit</Button>
+          <Button type="submit">Send</Button>
         </div>
       </form>
     </Form>

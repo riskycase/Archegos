@@ -59,8 +59,8 @@ export default function Home() {
               <div className="p-8 pt-4 pb-4 mt-5 text-zinc-700 sm:text-lg">
               <p className='p-2'>The name “Archegos” is derived from the Greek word meaning “leading by example”. 
               <span className="font-semibold"> Our name is not just a title; it is a promise to our customers, </span>
-              partners and the communities we serve that we will continually
-              <span className="font-semibold">pioneer new solutions </span> and lead the industry towards a healthier
+              partners and the communities we serve that we will continually 
+               <span className="font-semibold"> pioneer new solutions </span> and lead the industry towards a healthier
               future.</p>
               </div>
               <div className="p-8 pt-4 pb-4 mt-5 text-zinc-700 sm:text-lg">
