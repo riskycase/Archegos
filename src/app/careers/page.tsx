@@ -2,14 +2,6 @@ import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Link from "next/link";
 import { buttonVariants } from "../../components/ui/button";
-import Employees from "/assets/emp.jpg";
-import Star from "../../components/icons/star-solid.svg";
-import Stairs from "../../components/icons/stairs-solid.svg";
-import People from "../../components/icons/people-roof-solid.svg";
-import Bulb from "../../components/icons/lightbulb-solid.svg";
-import Sales from "/assets/sales_rep.jpg";
-import Business from "/assets/business-manager.jpg";
-import Marketing from "/assets/Business-Dev-Manager.jpg";
 
 import React from "react";
 
@@ -23,7 +15,7 @@ const Careers = () => {
               <div className="flex flex-col">
                 <div className="flex flex-col justify-center items-center p-7 text-center">
                   <Image
-                    src={Star}
+                    src="../../components/icons/star-solid.svg"
                     alt="product preview"
                     width={80}
                     height={80}
@@ -43,7 +35,7 @@ const Careers = () => {
 
                 <div className="flex flex-col justify-center items-center p-7 text-center mb-5">
                   <Image
-                    src={Stairs}
+                    src="../../components/icons/stairs-solid.svg"
                     alt="product preview"
                     width={80}
                     height={80}
@@ -76,7 +68,7 @@ const Careers = () => {
 
                 <div className="border-red-800 border-t-4 p-10">
                   <Image
-                    src={Employees}
+                    src="/assets/emp.jpg"
                     alt="product preview"
                     width={250}
                     height={250}
@@ -90,7 +82,7 @@ const Careers = () => {
             <div className="flex flex-col">
               <div className="flex flex-col justify-center items-center p-7 text-center">
                 <Image
-                  src={People}
+                  src="../../components/icons/people-roof-solid.svg"
                   alt="product preview"
                   width={80}
                   height={80}
@@ -110,7 +102,7 @@ const Careers = () => {
 
               <div className="flex flex-col justify-center items-center p-7 text-center mb-5">
                 <Image
-                  src={Bulb}
+                  src="../../components/icons/lightbulb-solid.svg"
                   alt="product preview"
                   width={70}
                   height={60}
@@ -132,90 +124,105 @@ const Careers = () => {
         </MaxWidthWrapper>
       </div>
 
-    <div className="h-fit overflow-hidden">
-    <MaxWidthWrapper className='mb-12 mt-28 flex items-center justify-center text center overflow-hidden'>
-      <h1 className="p-10 mt-0 text-center pb-5 text-3xl font-bold tracking-wider 
-        leading-12 text-red-800 sm:text-3xl sm:mt-0 md:text-4xl md:mt-10">OPPORTUNITIES AT ARCHEGOS</h1>
-      <p className='text-xl text-zinc-700 text-center lg:p-10'>We&apos;re looking for motivated and talented people for the following positions:</p>
-      <div className='flex flex-col space-y-20 justify-center items-center lg:flex-row lg:position-absolute lg:space-x-12 lg:space-y-0 p-12'>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
-          <div>
-            <Image
-          src={Sales} alt='product preview'
-          width={980}
-          height={720}
-          quality={100}
-          className='p-6 pb-10 w-auto h-60'
-          
-          />
-          </div>
-          <p className='text-lg text-red-800 font-semibold text-center'>Pharmaceutical Sales Representative</p>
-          <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
-          <Link
-              href="https://forms.gle/6vFPTiMvkgi4tQU69"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
+      <div className="h-fit overflow-hidden">
+        <MaxWidthWrapper className="mb-12 mt-28 flex items-center justify-center text center overflow-hidden">
+          <h1
+            className="p-10 mt-0 text-center pb-5 text-3xl font-bold tracking-wider 
+        leading-12 text-red-800 sm:text-3xl sm:mt-0 md:text-4xl md:mt-10"
           >
-            <p className='p-5 text-zinc-700 text-center'>Apply here</p>
-          </Link>
+            OPPORTUNITIES AT ARCHEGOS
+          </h1>
+          <p className="text-xl text-zinc-700 text-center lg:p-10">
+            We&apos;re looking for motivated and talented people for the
+            following positions:
+          </p>
+          <div className="flex flex-col space-y-20 justify-center items-center lg:flex-row lg:position-absolute lg:space-x-12 lg:space-y-0 p-12">
+            <div className="flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto">
+              <div>
+                <Image
+                  src="/assets/sales_rep.jpg"
+                  alt="product preview"
+                  width={980}
+                  height={720}
+                  quality={100}
+                  className="p-6 pb-10 w-auto h-60"
+                />
+              </div>
+              <p className="text-lg text-red-800 font-semibold text-center">
+                Pharmaceutical Sales Representative
+              </p>
+              <div className="p-6 border-red-800 border-t-2 pt-2 mt-5">
+                <Link
+                  href="https://forms.gle/6vFPTiMvkgi4tQU69"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <p className="p-5 text-zinc-700 text-center">Apply here</p>
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto">
+              <div>
+                <Image
+                  src="/assets/business-manager.jpg"
+                  alt="product preview"
+                  width={2121}
+                  height={1414}
+                  quality={100}
+                  className="p-6 pb-10 w-auto h-60"
+                />
+              </div>
+              <p className="text-lg text-red-800 font-semibold">
+                Business Development Manager
+              </p>
+              <div className="p-6 border-red-800 border-t-2 pt-2 mt-5">
+                <Link
+                  href="https://forms.gle/PPpoL7WshSwozgYDA"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <p className="p-5 text-zinc-700">Apply here</p>
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto">
+              <div>
+                <Image
+                  src="/assets/Business-Dev-Manager.jpg"
+                  alt="product preview"
+                  width={574}
+                  height={410}
+                  quality={100}
+                  className="p-6 pb-10 w-auto h-60"
+                />
+              </div>
+              <p className="text-lg text-red-800 font-semibold">
+                Marketing Specialist
+              </p>
+              <div className="p-6 border-red-800 border-t-2 pt-2 mt-5">
+                <Link
+                  href="https://forms.gle/CUy45gco8tB8VUtu6"
+                  className={buttonVariants({
+                    variant: "ghost",
+                    size: "sm",
+                  })}
+                >
+                  <p className="p-5 text-zinc-700">Apply here</p>
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
-          <div>
-            <Image
-          src={Business} alt='product preview'
-          width={2121}
-          height={1414}
-          quality={100}
-          className='p-6 pb-10 w-auto h-60'
-          
-          />
-          </div>
-          <p className='text-lg text-red-800 font-semibold'>Business Development Manager</p>
-          <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
-          <Link
-              href="https://forms.gle/PPpoL7WshSwozgYDA"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-          >
-            <p className='p-5 text-zinc-700'>Apply here</p>
-          </Link>
-          </div>
-        </div>
-        <div className='flex flex-col justify-center items-center bg-zinc-200 rounded-lg border-zinc-400 border-2 w-80 h-auto'>
-          <div>
-            <Image
-          src={Marketing} alt='product preview'
-          width={574}
-          height={410}
-          quality={100}
-          className='p-6 pb-10 w-auto h-60'
-          
-          />
-          </div>
-          <p className='text-lg text-red-800 font-semibold'>Marketing Specialist</p>
-          <div className='p-6 border-red-800 border-t-2 pt-2 mt-5'>
-          <Link
-              href="https://forms.gle/CUy45gco8tB8VUtu6"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-          >
-            <p className='p-5 text-zinc-700'>Apply here</p>
-          </Link>
-          </div>
-        </div>
+
+          <p className="p-10 text-xl text-zinc-700 text-center lg:pb-20">
+            Take the next big step in your career; join a dynamic team that is
+            making a real difference in the world of healthcare.
+          </p>
+        </MaxWidthWrapper>
       </div>
-
-      <p className='p-10 text-xl text-zinc-700 text-center lg:pb-20'>Take the next big step in your career; join a dynamic team that is making a real difference in the world of healthcare.</p>
-    </MaxWidthWrapper>
-    </div>
-
     </div>
   );
 };

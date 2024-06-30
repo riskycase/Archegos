@@ -6,8 +6,6 @@ import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { buttonVariants } from "./ui/button";
 
-import Logo from "/assets/Logo.jpg";
-
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +24,7 @@ const Navbar = () => {
           <div>
             <Link href="/">
               <Image
-                src={Logo}
+                src="/assets/Logo.jpg"
                 alt="product preview"
                 width={80}
                 height={60}

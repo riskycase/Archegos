@@ -10,28 +10,17 @@ import {
 } from "../../components/ui/card";
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 
-import p1 from "/assets/meds/IMG_0212.png";
-import p2 from "/assets/meds/IMG_0213.png";
-import p3 from "/assets/meds/IMG_0214.png";
-import p4 from "/assets/meds/IMG_0215.png";
-import p5 from "/assets/meds/IMG_0216.png";
-import p6 from "/assets/meds/IMG_0217.png";
-import p7 from "/assets/meds/IMG_0218.png";
-import p8 from "/assets/meds/IMG_0219.png";
-import p9 from "/assets/meds/IMG_0220.png";
-import p10 from "/assets/meds/IMG_0221.png";
-
 const products = [
-  { image: p1, title: "NextPara 650" },
-  { image: p2, title: "Calgos-XT" },
-  { image: p3, title: "SpinIron" },
-  { image: p4, title: "Claazole-D" },
-  { image: p5, title: "AlumGos" },
-  { image: p6, title: "Trigos-L" },
-  { image: p7, title: "Arcdextro" },
-  { image: p8, title: "LevotaMol" },
-  { image: p9, title: "Bretmet 400" },
-  { image: p10, title: "LevotaMol-I" },
+  { image: "/assets/meds/IMG_0212.png", title: "NextPara 650" },
+  { image: "/assets/meds/IMG_0213.png", title: "Calgos-XT" },
+  { image: "/assets/meds/IMG_0214.png", title: "SpinIron" },
+  { image: "/assets/meds/IMG_0215.png", title: "Claazole-D" },
+  { image: "/assets/meds/IMG_0216.png", title: "AlumGos" },
+  { image: "/assets/meds/IMG_0217.png", title: "Trigos-L" },
+  { image: "/assets/meds/IMG_0218.png", title: "Arcdextro" },
+  { image: "/assets/meds/IMG_0219.png", title: "LevotaMol" },
+  { image: "/assets/meds/IMG_0220.png", title: "Bretmet 400" },
+  { image: "/assets/meds/IMG_0221.png", title: "LevotaMol-I" },
 ];
 
 export default function Products() {
