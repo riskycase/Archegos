@@ -2,6 +2,10 @@ import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
 import Link from "next/link";
 import { buttonVariants } from "../../components/ui/button";
+import Star from "../../components/icons/star-solid.svg"
+import Stairs from "../../components/icons/stairs-solid.svg"
+import PeopleRoof from "../../components/icons/people-roof-solid.svg"
+import Light from "../../components/icons/lightbulb-solid.svg"
 
 import React from "react";
 
@@ -15,7 +19,7 @@ const Careers = () => {
               <div className="flex flex-col">
                 <div className="flex flex-col justify-center items-center p-7 text-center">
                   <Image
-                    src="../../components/icons/star-solid.svg"
+                    src={Star}
                     alt="product preview"
                     width={80}
                     height={80}
@@ -35,7 +39,7 @@ const Careers = () => {
 
                 <div className="flex flex-col justify-center items-center p-7 text-center mb-5">
                   <Image
-                    src="../../components/icons/stairs-solid.svg"
+                    src={Stairs}
                     alt="product preview"
                     width={80}
                     height={80}
@@ -82,7 +86,7 @@ const Careers = () => {
             <div className="flex flex-col">
               <div className="flex flex-col justify-center items-center p-7 text-center">
                 <Image
-                  src="../../components/icons/people-roof-solid.svg"
+                  src={PeopleRoof}
                   alt="product preview"
                   width={80}
                   height={80}
@@ -102,7 +106,7 @@ const Careers = () => {
 
               <div className="flex flex-col justify-center items-center p-7 text-center mb-5">
                 <Image
-                  src="../../components/icons/lightbulb-solid.svg"
+                  src={Light}
                   alt="product preview"
                   width={70}
                   height={60}

@@ -1,5 +1,8 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../../components/MaxWidthWrapper";
+import arrow1 from "../../components/icons/scale-balanced-solid.svg"
+import arrow2 from "../../components/icons/globe-solid.svg"
+import arrow3 from "../../components/icons/target-final.svg"
 
 export default function About() {
   return (
@@ -27,7 +30,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src="../../components/icons/target-final.svg"
+                    src={arrow3}
                     alt="product preview"
                     width={40}
                     height={40}
@@ -42,7 +45,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src="../../components/icons/target-final.svg"
+                    src={arrow3}
                     alt="product preview"
                     width={40}
                     height={40}
@@ -58,7 +61,7 @@ export default function About() {
               <li>
                 <div className="flex flex-row">
                   <Image
-                    src="../../components/icons/target-final.svg"
+                    src={arrow3}
                     alt="product preview"
                     width={40}
                     height={40}
@@ -131,8 +134,9 @@ export default function About() {
           <ol className="flex flex-col mt-15 p-10 justify-center items-center text-center sm:flex-col md:flex-row">
             <li className="flex flex-col justify-center items-center p-10">
               <Image
-                src="../../components/icons/scale-balanced-solid.svg"
+                src={arrow1}
                 alt="product preview"
+                height={110}
                 width={110}
                 quality={100}
                 className="bg-zinc-300 ring-4 ring-zinc-200 rounded-full p-4 mb-4 w-20 h-auto"
@@ -152,7 +156,7 @@ export default function About() {
 
             <li className="flex flex-col justify-center items-center p-10">
               <Image
-                src="../../components/icons/globe-solid.svg"
+                src={arrow2}
                 alt="product preview"
                 width={100}
                 height={100}
