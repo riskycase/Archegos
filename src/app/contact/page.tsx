@@ -3,7 +3,8 @@ import React from "react";
 import MaxWidthWrapper from "@/src/components/MaxWidthWrapper";
 import { ContactForm } from "../../components/Form";
 import { Toaster } from "../../components/ui/toaster";
-
+import Envelope from "../../components/icons/envelope-solid.svg"
+import Phone from "../../components/icons/phone-solid.svg"
 
 const Contact = () => {
   return (
@@ -73,7 +74,7 @@ const Contact = () => {
               <div className="flex flex-row">
                 <div className="h-10 w-10 mt-2">
                   <Image
-                    src="../../components/icons/envelope-solid.svg"
+                    src={Envelope}
                     alt="product preview"
                     height={20}
                     quality={100}
@@ -89,7 +90,7 @@ const Contact = () => {
               <div className="flex flex-row">
                 <div className="h-10 w-10 mt-2">
                   <Image
-                    src="../../components/icons/phone-solid.svg"
+                    src={Phone}
                     alt="product preview"
                     height={20}
                     quality={100}
