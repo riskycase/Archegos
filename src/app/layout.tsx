@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Archegos | High-end Pharmaceuticals",
     description: "Pharmaceutical Manufacturing & Medical Care Company",
-    url: "http://localhost:3000",
+    url: `${process.env.BASE_URL}`,
     siteName: "Archegos Pharmaceuticals",
     images: [
       {
-        url: "http://Localhost:3000/Logo-title.jpg",
+        url: `${process.env.BASE_URL}/Logo-title.jpg`,
         width: 1200,
         height: 630,
       },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Archegos | High-end Pharmaceuticals",
     description: "Pharmaceutical Manufacturing & Medical Care Company",
-    images: ["http://localhost:3000/twitter-image.jpg"],
+    images: [`${process.env.BASE_URL}/twitter-image.jpg`],
   },
   icons: {
     icon: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   alternates: {
-    canonical: 'http://Localhost:3000/current-page',
+    canonical: `${process.env.BASE_URL}/current-page`,
   },
   robots: {
     index: false,
