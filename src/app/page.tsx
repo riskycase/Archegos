@@ -3,11 +3,11 @@ import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { buttonVariants } from "../components/ui/button";
-import Wellness from "../components/assets/homeimg.jpg";
-import Products from '../components/assets/meds.png'
-import Quality from '../components/assets/quality.png'
-import Accessible from '../components/assets/output-onlinepngtools__8_-removebg-preview (1).png'
-import Reliable from '../components/assets/accessible.png'
+import Wellness from "/assets/homeimg.jpg";
+import Products from '/assets/meds.png'
+import Quality from '/assets/quality.png'
+import Accessible from '/assets/output-onlinepngtools__8_-removebg-preview (1).png'
+import Reliable from '/assets/accessible.png'
 
 export default function Home() {
   return (

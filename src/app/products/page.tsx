@@ -14,16 +14,16 @@ import {
 import { cn } from "../../lib/utils";
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 
-import p1 from "../../components/assets/meds/IMG_0212.png";
-import p2 from "../../components/assets/meds/IMG_0213.png";
-import p3 from "../../components/assets/meds/IMG_0214.png";
-import p4 from "../../components/assets/meds/IMG_0215.png";
-import p5 from "../../components/assets/meds/IMG_0216.png";
-import p6 from "../../components/assets/meds/IMG_0217.png";
-import p7 from "../../components/assets/meds/IMG_0218.png";
-import p8 from "../../components/assets/meds/IMG_0219.png";
-import p9 from "../../components/assets/meds/IMG_0220.png";
-import p10 from "../../components/assets/meds/IMG_0221.png";
+import p1 from "/assets/meds/IMG_0212.png";
+import p2 from "/assets/meds/IMG_0213.png";
+import p3 from "/assets/meds/IMG_0214.png";
+import p4 from "/assets/meds/IMG_0215.png";
+import p5 from "/assets/meds/IMG_0216.png";
+import p6 from "/assets/meds/IMG_0217.png";
+import p7 from "/assets/meds/IMG_0218.png";
+import p8 from "/assets/meds/IMG_0219.png";
+import p9 from "/assets/meds/IMG_0220.png";
+import p10 from "/assets/meds/IMG_0221.png";
 
 const products = [
   { image: p1, title: "NextPara 650" },
