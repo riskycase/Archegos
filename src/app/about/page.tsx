@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div>
       <div className="bg-white items-center h-fit lg:overflow-hidden lg:h-screen">
-        <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text center">
+        <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
           <div className="max-w-full flex flex-col items-center justify-center lg:flex-row lg:space-x-10 sm:flex-col">
             <Image
               src="/assets/archer-final.png"
@@ -16,17 +16,14 @@ export default function About() {
               width={180}
               height={180}
               quality={100}
-              className="mt-10 w-800 md:max-w-sm md:mt-10 lg:max-w-md overflow-hidden sm:mt-10 rounded-full bg-zinc-200 shadow-2xl lg:mt-40"
+              className="mt-10 w-auto md:max-w-sm md:mt-10 lg:max-w-md overflow-hidden sm:mt-10 rounded-full bg-zinc-200 shadow-2xl lg:mt-40"
             />
             <div className="flex flex-col items-center border-red-800 border-b-4 max-w-60 p-2">
-              <h1
-                className="mt-10 pt-5 pb-5 flex items-start text-2xl font-bold tracking-wider 
-        leading-12 text-red-800 text-center sm:text-3xl sm:mt-0 md:text-5xl lg:pt-10 lg:mt-20 md:mr-20 md:ml-20 "
-              >
+              <h1 className="mt-10 pt-5 pb-5 flex items-start text-2xl font-bold tracking-wider leading-12 text-red-800 text-center sm:text-3xl sm:mt-0 md:text-5xl lg:pt-10 lg:mt-20 md:mr-20 md:ml-20">
                 OUR MISSION
               </h1>
             </div>
-            <ol className="space-y-5 p-10 lg:mt-40 md:space-y-10 md:p-10 ">
+            <ol className="space-y-5 p-10 lg:mt-40 md:space-y-10 md:p-10">
               <li>
                 <div className="flex flex-row">
                   <Image
@@ -38,7 +35,7 @@ export default function About() {
                     className="grow-0"
                   />
                   <p className="font-semibold mt-2 max-w-prose text-lg text-zinc-700 sm:text-lg">
-                    To become a world-class and trusted pharmaceutical brand{" "}
+                    To become a world-class and trusted pharmaceutical brand
                   </p>
                 </div>
               </li>
@@ -53,8 +50,7 @@ export default function About() {
                     className="grow-0"
                   />
                   <p className="font-semibold mt-2 max-w-prose text-lg text-zinc-700 sm:text-lg">
-                    To meet the critical need for reliable and effective
-                    medications
+                    To meet the critical need for reliable and effective medications
                   </p>
                 </div>
               </li>
@@ -69,8 +65,7 @@ export default function About() {
                     className="grow-0"
                   />
                   <p className="font-semibold mt-2 max-w-prose text-lg text-zinc-700 sm:text-lg">
-                    To offer every individual quality healthcare solutions right
-                    at their doorstep
+                    To offer every individual quality healthcare solutions right at their doorstep
                   </p>
                 </div>
               </li>
@@ -80,57 +75,62 @@ export default function About() {
       </div>
 
       <div className="h-fit bg-zinc-200 lg:h-svh">
-        <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text center">
+        <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
           <div>
-            <div className="p-20 flex flex-col space-x-20 md:flex-row md:justify-center md:items-center sm:flex-col sm:justify-center sm:text-center sm:items-center sm:pl-5 sm:pr-5 md:pl-5 md:pr-5">
-              <div className="mt-0 flex flex-col justify-center items-center">
-                <h1 className="text-red-800 text-3xl font-bold text-center w-80 mt-10">
+            <div className="p-5 sm:p-10 md:p-20 flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10 items-center justify-center">
+              <div className="flex flex-col justify-center items-center">
+                <h1 className="text-red-800 text-3xl font-bold text-center w-full mb-5">
                   OUR STORY
                 </h1>
-                <div className="w-60 pt-5 lg:w-80">
+                <div className="w-full max-w-xs">
                   <Image
                     src="/assets/story.jpg"
                     alt="product preview"
                     width={800}
                     height={400}
                     quality={100}
-                    className="flex-shrink mt-10 rounded-full bg-white p-10 shadow-2xl"
+                    className="rounded-full bg-white p-5 shadow-2xl"
                   />
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-center mt-20">
-                <p className="text-zinc-700 text-center text-xl p-2 mb-2">
+              <div className="flex flex-col justify-center items-center max-w-2xl">
+                <p className="text-zinc-700 text-center text-lg p-2 mb-2">
                   Archegos Ventures Private Limited, a pioneering force in
-                  India&apos;s pharmaceutical industry, was born of the belief that
+                  India's pharmaceutical industry, was born of the belief that
                   good health is the foundation of a thriving community and
-                  society.{" "}
+                  society.
                 </p>
-                <p className="text-zinc-700 text-center text-xl p-2 mb-2">
+                <p className="text-zinc-700 text-center text-lg p-2 mb-2">
                   We strive to push the boundaries of what is possible in
                   healthcare, developing and bringing to market world-class
-                  products that meet global standards.{" "}
+                  products that meet global standards.
                 </p>
-                <p className="text-zinc-700 text-center text-xl p-2 mb-2">
+                <p className="text-zinc-700 text-center text-lg p-2 mb-2">
                   We have grown from a small startup to a leading player in the
                   market - a journey is marked by innovation, quality, and a
-                  relentless pursuit of excellence.{" "}
+                  relentless pursuit of excellence.
                 </p>
-                <div className="flex flex-row justify-center items-center mt-10">
-                  <p className="border-red-800 border-b-4 w-80"> </p>
+                <div className="flex justify-center items-center mt-5 w-full">
+                  <div className="border-red-800 border-b-4 w-full max-w-xs"></div>
                 </div>
               </div>
             </div>
-            <p className="mt-0 text-zinc-700 text-center text-xl lg:pb-40 font-semibold p-10 lg:hvw">
-              Over the years, we aim to expand our horizons, not just in
-              pharmaceuticals but also in real estate, consulting and private
-              investments, making us a diversified conglomerate.{" "}
-            </p>
+            <div className="mt-10 text-zinc-700 text-center text-xl lg:pb-40 font-semibold p-5 lg:p-10">
+  <p className="inline-block max-w-4xl mx-auto">
+    <span className="block mb-2">
+      Over the years, we aim to expand our horizons, not just in pharmaceuticals
+    </span>
+    <span className="block">
+      but also in real estate, consulting and private investments, making us a diversified conglomerate.
+    </span>
+  </p>
+</div>
           </div>
         </MaxWidthWrapper>
       </div>
 
       <div className="bg-white h-fit flex flex-row position-absolute md:h-svh">
-        <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text center">
+        <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text-center">
           <ol className="flex flex-col mt-15 p-10 justify-center items-center text-center sm:flex-col md:flex-row">
             <li className="flex flex-col justify-center items-center p-10">
               <Image
@@ -191,7 +191,7 @@ export default function About() {
       </div>
 
       <div className="bg-zinc-200">
-        <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text center">
+        <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text-center">
           <div className="p-5 sm:p-40">
             <p className="mt-10 mb-20 text-center text-zinc-700 text-lg font-semibold md:mt-80 lg:mt-40">
               A team of visionary leaders, with decades of experience in the
@@ -200,68 +200,68 @@ export default function About() {
               innovation and customer satisfaction.
             </p>
 
-            <div className="flex flex-col justify-center items-center pb-20 space-y-20 lg:flex-row lg:space-x-8 lg:space-y-0">
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
+            <div className="flex flex-col justify-center items-center pb-20 space-y-10 lg:flex-row lg:space-x-8 lg:space-y-0">
+              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
                   Our Founder - Siddhant Ojha
                 </h2>
                 <Image
-                src="/assets/ojha.jpg"
-                alt="gear"
-                width={270}
-                height={270}
-                quality={100}
-                className="z-10 shadow-2xl p-5 rounded-lg" 
+                  src="/assets/ojha.jpg"
+                  alt="Siddhant Ojha"
+                  width={200}
+                  height={200}
+                  quality={100}
+                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
                 />
-                <p className="text-center text-zinc-700 w-80 mt-5">
+                <p className="text-center text-zinc-700 mt-5">
                   A distinguished graduate of BITS Pilani, Siddhant is driven by
                   a passion to create a world-class and quality-oriented
                   pharmaceutical company in India. With a global vision, he has
-                  laid a strong for Archegos Ventures. His leadership and
-                  foresight have been instrumental in shaping our company&apos;s
+                  laid a strong foundation for Archegos Ventures. His leadership and
+                  foresight have been instrumental in shaping our company's
                   growth and success.
                 </p>
               </div>
 
-              <div className="mb-20 flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
+              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
                   Strategic Advisor - Satwik Sahu
                 </h2>
                 <Image
-                src="/assets/sahu.jpg"
-                alt="gear"
-                width={300}
-                height={300}
-                quality={100}
-                className="z-10 shadow-2xl p-5 rounded-lg" 
+                  src="/assets/sahu.jpg"
+                  alt="Satwik Sahu"
+                  width={200}
+                  height={200}
+                  quality={100}
+                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
                 />
-                <p className="text-center text-zinc-700 w-80 mt-5">
+                <p className="text-center text-zinc-700 mt-5">
                   Satwik Sahu is a distinguished alumnus of IIM Indore and BITS
                   Pilani. His expertise and strategic vision have been pivotal
-                  in driving the company&apos;s growth and innovation.
-                  Satwik&apos;s insightful guidance ensures that Archegos
+                  in driving the company's growth and innovation.
+                  Satwik's insightful guidance ensures that Archegos
                   Ventures continues to excel in the pharmaceutical industry.
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
+              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
                   Sales Head - Shadab Shahid
                 </h2>
                 <Image
-                src="/assets/sales-head.jpg"
-                alt="gear"
-                width={500}
-                height={500}
-                quality={100}
-                className="z-10 shadow-2xl p-5 rounded-lg" 
+                  src="/assets/sales-head.jpg"
+                  alt="Shadab Shahid"
+                  width={200}
+                  height={200}
+                  quality={100}
+                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
                 />
-                <p className="text-center text-zinc-700 w-80 mt-5">
+                <p className="text-center text-zinc-700 mt-5">
                   With a decade of experience in multinational pharmaceutical
                   companies like GSK, Shadab has acquired extensive industry
                   knowledge. His proven track record in sales have been
-                  instrumental in driving the company&apos;s market expansion.
-                  Shadab&apos;s leadership and strategic insights ensure
+                  instrumental in driving the company's market expansion.
+                  Shadab's leadership and strategic insights ensure
                   sustained success for Archegos Ventures.
                 </p>
               </div>
