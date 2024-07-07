@@ -193,14 +193,14 @@ export default function About() {
       <div className="bg-zinc-200">
         <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text center">
           <div className="p-5 sm:p-40">
-            <p className="mb-20 text-center text-zinc-700 text-lg font-semibold md:mt-80 lg:mt-40">
+            <p className="mt-10 mb-20 text-center text-zinc-700 text-lg font-semibold md:mt-80 lg:mt-40">
               A team of visionary leaders, with decades of experience in the
               pharmaceutical and healthcare industry, is steering the company
               towards its goals, ensuring that we remain at the forefront of
               innovation and customer satisfaction.
             </p>
 
-            <div className="flex flex-col justify-center items-center space-y-20 lg:flex-row lg:space-x-8 lg:space-y-0">
+            <div className="flex flex-col justify-center items-center pb-20 space-y-20 lg:flex-row lg:space-x-8 lg:space-y-0">
               <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
                   Our Founder - Siddhant Ojha
@@ -223,7 +223,7 @@ export default function About() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
+              <div className="mb-20 flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6">
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
                   Strategic Advisor - Satwik Sahu
                 </h2>

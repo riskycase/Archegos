@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="flex flex-col pt-0 lg:flex-row justify-center items-center text-center pb-20 sm:pt-10">
+            <div className="flex flex-col pt-0 justify-center items-center text-center lg:flex-row pb-20 sm:pt-10">
               <div className="p-8 pt-0 pb-4 mt-0 text-zinc-700 sm:mt-5 sm:pt-4 sm:text-lg">
                 <p>
                   Archegos Ventures is a forward-thinking pharmaceutical company
