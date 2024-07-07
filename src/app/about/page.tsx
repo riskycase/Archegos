@@ -120,7 +120,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <p className="text-zinc-700 text-center text-xl lg:pb-20 font-semibold p-10">
+            <p className="mt-0 text-zinc-700 text-center text-xl lg:pb-40 font-semibold p-10 lg:hvw">
               Over the years, we aim to expand our horizons, not just in
               pharmaceuticals but also in real estate, consulting and private
               investments, making us a diversified conglomerate.{" "}
@@ -205,7 +205,15 @@ export default function About() {
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
                   Our Founder - Siddhant Ojha
                 </h2>
-                <p className="text-center text-zinc-700 w-80">
+                <Image
+                src="/assets/ojha.jpg"
+                alt="gear"
+                width={270}
+                height={270}
+                quality={100}
+                className="z-10 shadow-2xl p-5 rounded-lg" 
+                />
+                <p className="text-center text-zinc-700 w-80 mt-5">
                   A distinguished graduate of BITS Pilani, Siddhant is driven by
                   a passion to create a world-class and quality-oriented
                   pharmaceutical company in India. With a global vision, he has
@@ -219,7 +227,15 @@ export default function About() {
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
                   Strategic Advisor - Satwik Sahu
                 </h2>
-                <p className="text-center text-zinc-700 w-80">
+                <Image
+                src="/assets/sahu.jpg"
+                alt="gear"
+                width={300}
+                height={300}
+                quality={100}
+                className="z-10 shadow-2xl p-5 rounded-lg" 
+                />
+                <p className="text-center text-zinc-700 w-80 mt-5">
                   Satwik Sahu is a distinguished alumnus of IIM Indore and BITS
                   Pilani. His expertise and strategic vision have been pivotal
                   in driving the company&apos;s growth and innovation.
@@ -232,7 +248,15 @@ export default function About() {
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl">
                   Sales Head - Shadab Shahid
                 </h2>
-                <p className="text-center text-zinc-700 w-80">
+                <Image
+                src="/assets/sales-head.jpg"
+                alt="gear"
+                width={500}
+                height={500}
+                quality={100}
+                className="z-10 shadow-2xl p-5 rounded-lg" 
+                />
+                <p className="text-center text-zinc-700 w-80 mt-5">
                   With a decade of experience in multinational pharmaceutical
                   companies like GSK, Shadab has acquired extensive industry
                   knowledge. His proven track record in sales have been

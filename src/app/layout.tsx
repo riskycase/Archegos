@@ -8,13 +8,14 @@ const inter = Inter({ subsets: ["latin"] });
   
 
 export const metadata: Metadata = {
-  title: "Archegos | High-end Pharmaceuticals",
+  // metadataBase: new URL(`${process.env.BASE_URL}`,),
+  title: "Archegos Ventures | High-end Pharmaceuticals",
   description: "Pharmaceutical Manufacturing & Medical Care Company",
   keywords: ["pharmaceuticals", "medical care", "healthcare", "medicines", "online", "pharma"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Raiia Singh" }],
   creator: "@raiiasingh19",
   openGraph: {
-    title: "Archegos | High-end Pharmaceuticals",
+    title: "Archegos Ventures | High-end Pharmaceuticals",
     description: "Pharmaceutical Manufacturing & Medical Care Company",
     url: `${process.env.BASE_URL}`,
     siteName: "Archegos Pharmaceuticals",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Archegos | High-end Pharmaceuticals",
+    title: "Archegos Ventures | High-end Pharmaceuticals",
     description: "Pharmaceutical Manufacturing & Medical Care Company",
     images: [`${process.env.BASE_URL}/twitter-image.jpg`],
   },
