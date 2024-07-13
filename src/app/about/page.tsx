@@ -89,14 +89,14 @@ export default function About() {
                     width={800}
                     height={400}
                     quality={100}
-                    className="rounded-full bg-white p-5 shadow-2xl"
+                    className="rounded-full bg-white p-10 shadow-2xl mt-10"
                   />
                 </div>
               </div>
-              <div className="flex flex-col justify-center items-center max-w-2xl">
+              <div className="flex flex-col justify-center items-center max-w-2xl mt-10">
                 <p className="text-zinc-700 text-center text-lg p-2 mb-2">
                   Archegos Ventures Private Limited, a pioneering force in
-                  India's pharmaceutical industry, was born of the belief that
+                  India&apos;s pharmaceutical industry, was born of the belief that
                   good health is the foundation of a thriving community and
                   society.
                 </p>
@@ -105,7 +105,7 @@ export default function About() {
                   healthcare, developing and bringing to market world-class
                   products that meet global standards.
                 </p>
-                <p className="text-zinc-700 text-center text-lg p-2 mb-2">
+                <p className="text-zinc-700 text-center text-lg p-2 mb-0">
                   We have grown from a small startup to a leading player in the
                   market - a journey is marked by innovation, quality, and a
                   relentless pursuit of excellence.
@@ -115,16 +115,16 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="mt-10 text-zinc-700 text-center text-xl lg:pb-40 font-semibold p-5 lg:p-10">
-  <p className="inline-block max-w-4xl mx-auto">
-    <span className="block mb-2">
-      Over the years, we aim to expand our horizons, not just in pharmaceuticals
-    </span>
-    <span className="block">
-      but also in real estate, consulting and private investments, making us a diversified conglomerate.
-    </span>
-  </p>
-</div>
+            <div className="text-zinc-700 text-center text-xl font-semibold p-5 lg:p-10">
+            <p className="inline-block max-w-4xl mx-auto">
+              <span className="block mb-2">
+                Over the years, we aim to expand our horizons, not just in pharmaceuticals
+              </span>
+              <span className="block">
+                but also in real estate, consulting and private investments, making us a diversified conglomerate.
+              </span>
+            </p>
+          </div>
           </div>
         </MaxWidthWrapper>
       </div>
@@ -200,10 +200,10 @@ export default function About() {
               innovation and customer satisfaction.
             </p>
 
-            <div className="flex flex-col justify-center items-center pb-20 space-y-10 lg:flex-row lg:space-x-8 lg:space-y-0">
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+            <div className="flex flex-col justify-center items-center pb-20 space-x-0 space-y-10 max-w-7xl lg:flex-row lg:space-x-12 lg:space-y-0">
+              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full">
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Our Founder - Siddhant Ojha
+                  Our Founder - <br />Siddhant Ojha
                 </h2>
                 <Image
                   src="/assets/ojha.jpg"
@@ -218,14 +218,13 @@ export default function About() {
                   a passion to create a world-class and quality-oriented
                   pharmaceutical company in India. With a global vision, he has
                   laid a strong foundation for Archegos Ventures. His leadership and
-                  foresight have been instrumental in shaping our company's
-                  growth and success.
+                  foresight have been instrumental in shaping our company&apos;s success.
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Strategic Advisor - Satwik Sahu
+                  Strategic Advisor - <br />Satwik Sahu
                 </h2>
                 <Image
                   src="/assets/sahu.jpg"
@@ -238,15 +237,15 @@ export default function About() {
                 <p className="text-center text-zinc-700 mt-5">
                   Satwik Sahu is a distinguished alumnus of IIM Indore and BITS
                   Pilani. His expertise and strategic vision have been pivotal
-                  in driving the company's growth and innovation.
-                  Satwik's insightful guidance ensures that Archegos
+                  in driving the company&apos;s growth and innovation.
+                  Satwik&apos;s insightful guidance ensures that Archegos
                   Ventures continues to excel in the pharmaceutical industry.
                 </p>
               </div>
 
               <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
                 <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Sales Head - Shadab Shahid
+                  Sales Head - <br />Shadab Shahid
                 </h2>
                 <Image
                   src="/assets/sales-head.jpg"
@@ -259,9 +258,9 @@ export default function About() {
                 <p className="text-center text-zinc-700 mt-5">
                   With a decade of experience in multinational pharmaceutical
                   companies like GSK, Shadab has acquired extensive industry
-                  knowledge. His proven track record in sales have been
-                  instrumental in driving the company's market expansion.
-                  Shadab's leadership and strategic insights ensure
+                  knowledge. His proven track record in sales has been
+                  instrumental in driving the company&apos;s market expansion.
+                  Shadab&apos;s leadership and strategic insights ensure
                   sustained success for Archegos Ventures.
                 </p>
               </div>

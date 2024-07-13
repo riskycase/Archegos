@@ -32,7 +32,7 @@ export default function Home() {
       width={300}
       height={300}
       quality={100}
-      className="rounded-full bg-white p-10 shadow-2xl"
+      className="mt-10 md:mt-0 rounded-full bg-white p-10 shadow-2xl"
     />
   </div>
 </div>
