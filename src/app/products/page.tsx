@@ -11,16 +11,16 @@ import {
 import { Alert, AlertDescription, AlertTitle } from "../../components/ui/alert";
 
 const products = [
-  { image: "/assets/meds/IMG_0212.png", title: "NextPara 650", indications: ""},
-  { image: "/assets/meds/IMG_0213.png", title: "Calgos-XT", indications: "Osteoporosis, Hypocalcemia, Rickets with osteomalacia, Ostodystrophy, Softening of bones, Pregnancy and lactation"},
-  { image: "/assets/meds/IMG_0214.png", title: "SpinIron", indications: "Iron deficiency anaemia, Haemoglobin deficiency, General weakness, Pregnancy and lactation, Chronic blood loss, Menopause haemorrhagic" },
-  { image: "/assets/meds/IMG_0215.png", title: "Claazole-D", indications: "Reflux oesophagitis, Gerd, Heartburn and hyperacidity, Gastric and peptic ulcers, Antibiotic induced gastritis, Regurgitation and flatulance" },
-  { image: "/assets/meds/IMG_0216.png", title: "AlumGos", indications: "Gastritis, Bleed and peptic ulcer, Ibs, Hitaus hernia, Esophagitis, Heartburn, Hyperacidity, Dyspepsia of pregnancy" },
-  { image: "/assets/meds/IMG_0217.png", title: "Trigos-L", indications: "Seasonal allergic rhinitis, Productive cough, Bronchial asthama, Bronchopneumonia, Perinial allergic rhinitis, Exercise induced bronchoconstriction" },
-  { image: "/assets/meds/IMG_0218.png", title: "Arcdextro", indications: "Dry / allergic cough, Running or blocked nose,Mouth and throat infection, Sinusitis, Common cold" },
-  { image: "/assets/meds/IMG_0219.png", title: "LevotaMol", indications: "Bronchitis, Bronchial asthama, Emphysema, Broncho pulmonary disease" },
-  { image: "/assets/meds/IMG_0220.png", title: "Bretmet 400", indications: "Prophylactic therapy for asthma, control & prevention of wheezing and shortness of breath, treatment of Chronic Obstructive Pulmonary Disease, chronic bhronchitis & emphysema" },
-  { image: "/assets/meds/IMG_0221.png", title: "LevotaMol-I", indications: "Management of bronchospasm, relief from wheezing, shortness of breath, chest tightness and coughing, therapy for asthma" },
+  { image: "/assets/IMG_0212.png", title: "NextPara 650", indications: ""},
+  { image: "/assets/IMG_0213.png", title: "Calgos-XT", indications: "Osteoporosis, Hypocalcemia, Rickets with osteomalacia, Ostodystrophy, Softening of bones, Pregnancy and lactation"},
+  { image: "/assets/IMG_0214.png", title: "SpinIron", indications: "Iron deficiency anaemia, Haemoglobin deficiency, General weakness, Pregnancy and lactation, Chronic blood loss, Menopause haemorrhagic" },
+  { image: "/assets/IMG_0215.png", title: "Claazole-D", indications: "Reflux oesophagitis, Gerd, Heartburn and hyperacidity, Gastric and peptic ulcers, Antibiotic induced gastritis, Regurgitation and flatulance" },
+  { image: "/assets/IMG_0216.png", title: "AlumGos", indications: "Gastritis, Bleed and peptic ulcer, Ibs, Hitaus hernia, Esophagitis, Heartburn, Hyperacidity, Dyspepsia of pregnancy" },
+  { image: "/assets/IMG_0217.png", title: "Trigos-L", indications: "Seasonal allergic rhinitis, Productive cough, Bronchial asthama, Bronchopneumonia, Perinial allergic rhinitis, Exercise induced bronchoconstriction" },
+  { image: "/assets/IMG_0218.png", title: "Arcdextro", indications: "Dry / allergic cough, Running or blocked nose,Mouth and throat infection, Sinusitis, Common cold" },
+  { image: "/assets/IMG_0219.png", title: "LevotaMol", indications: "Bronchitis, Bronchial asthama, Emphysema, Broncho pulmonary disease" },
+  { image: "/assets/IMG_0220.png", title: "Bretmet 400", indications: "Prophylactic therapy for asthma, control & prevention of wheezing and shortness of breath, treatment of Chronic Obstructive Pulmonary Disease, chronic bhronchitis & emphysema" },
+  { image: "/assets/IMG_0221.png", title: "LevotaMol-I", indications: "Management of bronchospasm, relief from wheezing, shortness of breath, chest tightness and coughing, therapy for asthma" },
 ];
 
 export default function Products() {
