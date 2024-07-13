@@ -25,7 +25,7 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="bg-zinc-200 pb-20 mb-20 overflow-hidden h-fit">
+    <div className="bg-zinc-200 pb-0 overflow-hidden min-h-screen">
       <Alert>
         <AlertTitle className="text-center">Coming soon!</AlertTitle>
         <AlertDescription className="text-center">
@@ -39,34 +39,33 @@ export default function Products() {
         </AlertDescription>
       </Alert>
 
-      <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text-center">
+      <MaxWidthWrapper className="mb-0 mt-28 flex flex-col items-center justify-center text-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-80 p-10 w-fit mt-20">
           {products.map((product, index) => (
             <div key={index} className="border-2 border-red-800 rounded-lg overflow-hidden">
-            <Card className="h-full flex flex-col">
-              <CardHeader className="flex-shrink-0 text-center">
-                <CardTitle className="text-lg">{product.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow flex items-center justify-center">
-                <Image
-                  src={product.image}
-                  alt={product.title}
-                  height={300}
-                  width={500}
-                  quality={100}
-                  className="p-6 object-contain"
-                />
-              </CardContent>
-              <CardFooter className="flex-shrink-0">
-                <div className="w-full text-center">
-                  <p className="text-zinc-700 font-semibold text-sm">INDICATIONS:</p>
-                  <p className="text-zinc-700 text-sm">{product.indications}</p>
-                </div>
-              </CardFooter>
-            </Card>
-          </div>
+              <Card className="h-full flex flex-col">
+                <CardHeader className="flex-shrink-0 text-center">
+                  <CardTitle className="text-lg">{product.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="flex-grow flex items-center justify-center">
+                  <Image
+                    src={product.image}
+                    alt={product.title}
+                    height={300}
+                    width={500}
+                    quality={100}
+                    className="p-6 object-contain"
+                  />
+                </CardContent>
+                <CardFooter className="flex-shrink-0">
+                  <div className="w-full text-center">
+                    <p className="text-zinc-700 font-semibold text-sm">INDICATIONS:</p>
+                    <p className="text-zinc-700 text-sm">{product.indications}</p>
+                  </div>
+                </CardFooter>
+              </Card>
+            </div>
           ))}
-
         </div>
       </MaxWidthWrapper>
     </div>
