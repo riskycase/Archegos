@@ -7,7 +7,7 @@ import arrow3 from "../../components/icons/target-final.svg"
 export default function About() {
   return (
     <div>
-      <div className="bg-white items-center h-fit lg:overflow-hidden lg:h-screen">
+      <div className="bg-white items-center h-fit lg:overflow-hidden lg:h-fit">
         <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
           <div className="max-w-full flex flex-col items-center justify-center lg:flex-row lg:space-x-10 sm:flex-col">
             <Image
@@ -74,7 +74,7 @@ export default function About() {
         </MaxWidthWrapper>
       </div>
 
-      <div className="h-fit bg-zinc-200 lg:h-svh">
+      <div className="h-fit bg-zinc-200 lg:h-fit">
         <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
           <div>
             <div className="p-5 sm:p-10 md:p-20 flex flex-col space-y-10 md:flex-row md:space-y-0 md:space-x-10 items-center justify-center">
