@@ -163,7 +163,7 @@ export default function About() {
                 quality={100}
                 className="bg-zinc-300 ring-4 ring-zinc-200 rounded-full p-5 mb-4 w-20 h-auto"
               />
-              <h3 className="mb-2 border-zinc-300 border-b-4 text-red-800 font-bold">
+              <h3 className="mb-2 border-zinc-300 border-b-4 text-red-800 font-bold w-60">
                 CORPORATE SOCIAL RESPONSIBILITY
               </h3>
               <p className="text-zinc-700 pl-8 pr-8">
