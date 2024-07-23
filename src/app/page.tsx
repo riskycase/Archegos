@@ -15,11 +15,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col mb-40 justify-between items-center space-x-0 md:space-x-10 md:mb-0 md:flex-row">
-  <h1 className="max-w-2xl pt-10 text-3xl font-bold text-center md:text-left md:text-4xl lg:text-4xl">
+  <h1 className="max-w-lg pt-10 text-3xl font-bold text-center sm:max-w-2xl md:text-left md:text-4xl lg:text-4xl">
     <div className="text-red-800">
       At Archegos, we bridge the gap{" "}
     </div>{" "}
-    <div className="max-w-4xl pt-2 pb-2 leading-tight">
+    <div className="max-w-4xl sm:pt-2 pb-2 leading-tight">
       between cutting-edge medical advancements and patients, making
       essential treatments{" "}
     </div>{" "}
