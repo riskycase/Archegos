@@ -15,7 +15,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col mb-40 justify-between items-center space-x-0 md:space-x-10 md:mb-0 md:flex-row">
-  <h1 className="max-w-lg px-20 sm:px-0 pt-10 text-3xl font-bold text-center sm:max-w-2xl md:text-left md:text-4xl lg:text-4xl">
+  <h1 className="max-w-lg px-10 sm:px-0 pt-10 text-3xl font-bold text-center sm:max-w-2xl md:text-left md:text-4xl lg:text-4xl">
     <div className="text-red-800">
       At Archegos, we bridge the gap{" "}
     </div>{" "}
