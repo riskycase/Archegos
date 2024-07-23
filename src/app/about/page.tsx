@@ -8,6 +8,11 @@ import arrow2 from "../../components/icons/globe-solid.svg";
 
 import arrow3 from "../../components/icons/target-final.svg";
 
+import github from "../../components/icons/github-brands-solid.svg";
+import linkedin from "../../components/icons/linkedin-brands-solid-red.svg"
+
+import Link from 'next/link'
+
 export default function About() {
   return (
     <div>
@@ -220,92 +225,193 @@ export default function About() {
       </div>
 
       <div className="bg-zinc-200 h-contain">
-        <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text-center">
-          <div className="p-5 sm:p-40">
-            <p className="mt-10 mb-20 sm:mt-80 sm:pt-40 text-center text-zinc-700 text-lg font-semibold lg:mt-40">
-              A team of visionary leaders, with decades of experience in the
-              pharmaceutical and healthcare industry, is steering the company
-              towards its goals, ensuring that we remain at the forefront of
-              innovation and customer satisfaction.
-            </p>
+      <MaxWidthWrapper className="mb-12 mt-28 flex flex-row items-center justify-center text-center">
 
-            <div className="flex flex-col justify-center items-center pb-20 space-x-0 space-y-10 max-w-7xl lg:flex-row lg:space-x-12 lg:space-y-0">
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Our Founder - <br />
-                  Siddhant Ojha
-                </h2>
+<div className="p-5 sm:p-40">
 
-                <Image
-                  src="/assets/ojha.jpg"
-                  alt="Siddhant Ojha"
-                  width={200}
-                  height={200}
-                  quality={100}
-                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
-                />
+  <p className="mt-10 mb-20 sm:mt-80 sm:pt-40 text-center text-zinc-700 text-lg font-semibold lg:mt-40">
 
-                <p className="text-center text-zinc-700 mt-5">
-                  A distinguished graduate of BITS Pilani, Siddhant is driven by
-                  a passion to create a world-class and quality-oriented
-                  pharmaceutical company in India. With a global vision, he has
-                  laid a strong foundation for Archegos Ventures. His leadership
-                  and foresight have been instrumental in shaping our
-                  company&apos;s success.
-                </p>
-              </div>
+    A team of visionary leaders, with decades of experience in the
 
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Strategic Advisor - <br />
-                  Satwik Sahu
-                </h2>
+    pharmaceutical and healthcare industry, is steering the company
 
-                <Image
-                  src="/assets/sahu.jpg"
-                  alt="Satwik Sahu"
-                  width={200}
-                  height={200}
-                  quality={100}
-                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
-                />
+    towards its goals, ensuring that we remain at the forefront of
 
-                <p className="text-center text-zinc-700 mt-5">
-                  Satwik Sahu is a distinguished alumnus of IIM Indore and BITS
-                  Pilani. His expertise and strategic vision have been pivotal
-                  in driving the company&apos;s growth and innovation.
-                  Satwik&apos;s insightful guidance ensures that Archegos
-                  Ventures continues to excel in the pharmaceutical industry.
-                </p>
-              </div>
+    innovation and customer satisfaction.
 
-              <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
-                <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
-                  Sales Head - <br />
-                  TBA
-                </h2>
+  </p>
 
-                <Image
-                  src="/assets/sales-head.jpg"
-                  alt="Shadab Shahid"
-                  width={300}
-                  height={300}
-                  quality={100}
-                  className="z-10 shadow-2xl p-3 rounded-lg object-cover"
-                />
 
-                <p className="text-center text-zinc-700 mt-5">
-                  With a decade of experience in multinational pharmaceutical
-                  companies like GSK, our sales head has acquired extensive
-                  industry knowledge. His proven track record in sales has been
-                  instrumental in driving the company&apos;s market expansion.
-                  His leadership and strategic insights ensure sustained success
-                  for Archegos Ventures.
-                </p>
-              </div>
-            </div>
-          </div>
-        </MaxWidthWrapper>
+
+  <div className="flex flex-col justify-center items-center pb-20 space-x-0 space-y-10 max-w-7xl lg:flex-row lg:space-x-12 lg:space-y-0">
+
+    <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full">
+
+      <h2 className="text-red-800 mb-2 mt-2 font-bold text-center">
+
+        <p className="text-2xl">OUR FOUNDER</p><br /><p className="text-lg">SIDDHANT OJHA</p>
+
+      </h2>
+
+      <Image
+
+        src="/assets/ojha.jpg"
+
+        alt="Siddhant Ojha"
+
+        width={200}
+
+        height={200}
+
+        quality={100}
+
+        className="z-10 shadow-2xl p-3 rounded-lg object-cover"
+
+      />
+
+      <p className="text-center text-zinc-700 mt-5">
+
+        A distinguished graduate of BITS Pilani, Siddhant is driven by
+
+        a passion to create a world-class and quality-oriented
+
+        pharmaceutical company in India. With a global vision, he has
+
+        laid a strong foundation for Archegos Ventures. His leadership and
+
+        foresight have been instrumental in shaping our company&apos;s success.
+
+      </p>
+
+      
+      <Link
+  href="https://www.linkedin.com/in/siddhant-ojha"
+  className="flex items-center text-red-800 mt-5 hover:opacity-80"
+>
+  <span className="mr-2">
+    <Image
+      src={linkedin}
+      alt="linkedin"
+      width={40}
+      height={40}
+      quality={100}
+      className="z-10 p-3 rounded-lg object-cover"
+    />
+  </span>
+  <span className="text-zinc-700 text-sm font-semibold">Siddhant Ojha</span>
+</Link>
+
+    </div>
+
+
+
+    <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+
+      <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
+
+      <p className="text-2xl">STRATEGIC ADVISOR</p><br /><p className="text-lg">SATWIK SAHU</p>
+
+      </h2>
+
+      <Image
+
+        src="/assets/sahu.jpg"
+
+        alt="Satwik Sahu"
+
+        width={200}
+
+        height={200}
+
+        quality={100}
+
+        className="z-10 shadow-2xl p-3 rounded-lg object-cover"
+
+      />
+
+      <p className="text-center text-zinc-700 mt-5">
+
+        Satwik Sahu is a distinguished alumnus of IIM Indore and BITS
+
+        Pilani. His expertise and strategic vision have been pivotal
+
+        in driving the company&apos;s growth and innovation.
+
+        Satwik&apos;s insightful guidance ensures that Archegos
+
+        Ventures continues to excel in the pharmaceutical industry.
+
+      </p>
+
+
+
+      <Link
+  href="https://www.linkedin.com/in/satwik-sahu-b94017281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  className="flex items-center text-red-800 mt-5 hover:opacity-80"
+>
+  <span className="mr-2">
+    <Image
+      src={linkedin}
+      alt="linkedin"
+      width={40}
+      height={40}
+      quality={100}
+      className="z-10 p-3 rounded-lg object-cover"
+    />
+  </span>
+  <span className="text-zinc-700 text-sm font-semibold">Satwik Sahu</span>
+</Link>
+    </div>
+
+
+
+    <div className="flex flex-col justify-center items-center bg-white rounded-lg border-zinc-400 border-2 p-6 w-full max-w-sm">
+
+      <h2 className="text-red-800 mb-2 mt-2 font-bold text-xl text-center">
+
+      <p className="text-2xl">SALES HEAD</p><br /><p className="text-lg">TBA</p>
+
+      </h2>
+
+      <Image
+
+        src="/assets/sales-head.jpg"
+
+        alt="Shadab Shahid"
+
+        width={300}
+
+        height={300}
+
+        quality={100}
+
+        className="z-10 shadow-2xl p-3 rounded-lg object-cover"
+
+      />
+
+      <p className="text-center text-zinc-700 mt-5">
+
+        With a decade of experience in multinational pharmaceutical
+
+        companies like GSK, our sales head has acquired extensive industry
+
+        knowledge. His proven track record in sales has been
+
+        instrumental in driving the company&apos;s market expansion.
+
+        His leadership and strategic insights ensure
+
+        sustained success for Archegos Ventures.
+
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+</MaxWidthWrapper>
       </div>
     </div>
   );
