@@ -139,13 +139,10 @@ export default function About() {
             </div>
 
             <div className="text-zinc-700 text-center text-xl font-semibold p-5 lg:p-10">
-              <p className="inline-block max-w-4xl mx-auto">
+              <p className="inline-block max-w-4xl px-3 mx-auto">
                 <span>
                   Over the years, we aim to expand our horizons, not just in
-                  pharmaceuticals
-                </span>
-                <span>
-                  but also in real estate, consulting and private investments,
+                  pharmaceuticals but also in real estate, consulting and private investments,
                   making us a diversified conglomerate.
                 </span>
               </p>
