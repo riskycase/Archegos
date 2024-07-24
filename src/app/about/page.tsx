@@ -17,76 +17,78 @@ export default function About() {
   return (
     <div>
       <div className="bg-white items-center h-fit lg:overflow-hidden md:h-svh lg:h-svh">
-      <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
-  <div className="w-full flex justify-center items-center">
-    <div className="mt-0 max-w-full flex flex-col items-center justify-center lg:flex-row lg:space-x-10 sm:flex-col">
-      <Image
-        src="/assets/archer-final.png"
-        alt="product preview"
-        width={180}
-        height={180}
-        quality={100}
-        className="mt-10 w-auto md:max-w-sm md:mt-10 lg:max-w-md overflow-hidden sm:mt-10 rounded-full bg-zinc-200 shadow-2xl lg:mt-40"
-      />
+        <MaxWidthWrapper className="mb-12 mt-12 flex flex-col items-center justify-center text-center">
+          <div className="w-full flex justify-center items-center">
+            <div className="mt-0 max-w-full flex flex-col items-center justify-center lg:flex-row lg:space-x-10 sm:flex-col">
+              <Image
+                src="/assets/archer-final.png"
+                alt="product preview"
+                width={180}
+                height={180}
+                quality={100}
+                className="mt-10 w-auto md:max-w-sm md:mt-10 lg:max-w-md overflow-hidden sm:mt-10 rounded-full bg-zinc-200 shadow-2xl lg:mt-40"
+              />
 
-      <div className="flex flex-col items-center border-red-800 border-b-4 max-w-60 p-2">
-        <h1 className="mt-10 pt-5 pb-5 flex items-center text-2xl font-bold tracking-wider leading-12 text-red-800 text-center sm:text-3xl sm:mt-0 md:text-5xl lg:pt-10 lg:mt-20">
-          OUR MISSION
-        </h1>
-      </div>
+              <div className="flex flex-col items-center border-red-800 border-b-4 max-w-60 p-2">
+                <h1 className="mt-10 pt-5 pb-5 flex items-center text-2xl font-bold tracking-wider leading-12 text-red-800 text-center sm:text-3xl sm:mt-0 md:text-5xl lg:pt-10 lg:mt-20">
+                  OUR MISSION
+                </h1>
+              </div>
 
-      <ol className="space-y-5 p-5 lg:mt-40 md:space-y-10 md:p-10">
-        <li>
-          <div className="flex flex-row items-center">
-            <Image
-              src={arrow3}
-              alt="product preview"
-              width={40}
-              height={40}
-              quality={100}
-              className="flex-shrink-0 mr-2"
-            />
-            <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
-              To become a world-class and trusted pharmaceutical brand
-            </p>
+              <ol className="space-y-5 p-5 lg:mt-40 md:space-y-10 md:p-10">
+                <li>
+                  <div className="flex flex-row items-center">
+                    <Image
+                      src={arrow3}
+                      alt="product preview"
+                      width={40}
+                      height={40}
+                      quality={100}
+                      className="flex-shrink-0 mr-2"
+                    />
+                    <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
+                      To become a world-class and trusted pharmaceutical brand
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex flex-row items-center">
+                    <Image
+                      src={arrow3}
+                      alt="product preview"
+                      width={40}
+                      height={40}
+                      quality={100}
+                      className="flex-shrink-0 mr-2"
+                    />
+                    <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
+                      To meet the critical need for reliable and effective
+                      medications
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex flex-row items-center">
+                    <Image
+                      src={arrow3}
+                      alt="product preview"
+                      width={40}
+                      height={40}
+                      quality={100}
+                      className="flex-shrink-0 mr-2"
+                    />
+                    <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
+                      To offer every individual quality healthcare solutions
+                      right at their doorstep
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
           </div>
-        </li>
-
-        <li>
-          <div className="flex flex-row items-center">
-            <Image
-              src={arrow3}
-              alt="product preview"
-              width={40}
-              height={40}
-              quality={100}
-              className="flex-shrink-0 mr-2"
-            />
-            <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
-              To meet the critical need for reliable and effective medications
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <div className="flex flex-row items-center">
-            <Image
-              src={arrow3}
-              alt="product preview"
-              width={40}
-              height={40}
-              quality={100}
-              className="flex-shrink-0 mr-2"
-            />
-            <p className="font-semibold text-lg text-zinc-700 sm:text-lg">
-              To offer every individual quality healthcare solutions right at their doorstep
-            </p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </div>
-</MaxWidthWrapper>
+        </MaxWidthWrapper>
       </div>
 
       <div className="h-fit bg-zinc-200 lg:h-fit">
@@ -138,12 +140,11 @@ export default function About() {
 
             <div className="text-zinc-700 text-center text-xl font-semibold p-5 lg:p-10">
               <p className="inline-block max-w-4xl mx-auto">
-                <span className="block mb-2">
+                <span>
                   Over the years, we aim to expand our horizons, not just in
                   pharmaceuticals
                 </span>
-
-                <span className="block">
+                <span>
                   but also in real estate, consulting and private investments,
                   making us a diversified conglomerate.
                 </span>
