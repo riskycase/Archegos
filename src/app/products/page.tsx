@@ -25,7 +25,7 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="bg-zinc-200 pb-0 overflow-hidden min-h-screen">
+    <div className="bg-zinc-200 pb-6 overflow-hidden min-h-screen">
       <Alert>
         <AlertTitle className="text-center">Coming soon!</AlertTitle>
         <AlertDescription className="text-center">
