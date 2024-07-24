@@ -126,7 +126,7 @@ export default function About() {
 
                 <p className="text-zinc-700 text-center text-lg p-2 mb-0">
                   We have grown from a small startup to a leading player in the
-                  market - a journey is marked by innovation, quality, and a
+                  market - a journey marked by innovation, quality, and a
                   relentless pursuit of excellence.
                 </p>
 
