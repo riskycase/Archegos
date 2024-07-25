@@ -10,8 +10,8 @@ const Contact = () => {
   return (
     <div>
       <div>
-        <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text center">
-          <div className="flex flex-col justify-center items-center md:flex-row md:mt-4 md:pl-10 md:pr-10">
+        <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col justify-center items-center md:flex-row md:mt-4 md:px-10">
             <div className="flex flex-col justify-center items-center">
               <h1 className="mt-5 flex flex-row justify-center items-center md:items-start text-3xl font-bold tracking-wide text-red-800 text-center sm:text-3xl md:text-5xl">
                 CONTACT US
@@ -33,8 +33,8 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center">
-              <div className="mt-20 flex flex-col justify-center items-center border-zinc-200 border-2 rounded-md h-fit w-fit p-5 pl-20 pr-20 md:mt-12 md:ml-20">
+            <div className="flex justify-center items-center w-full md:w-auto">
+              <div className="mt-20 flex flex-col justify-center items-center border-zinc-200 border-2 rounded-md w-full max-w-md p-5 md:p-8 md:mt-12 md:ml-20">
                 <p className="flex flex-row justify-center items-center text-red-800 font-semibold text-2xl mb-10">
                   Send us a message
                 </p>
