@@ -49,9 +49,9 @@ const Contact = () => {
 
       <div className="h-fit mt-20 bg-zinc-200 lg:h-60">
         <MaxWidthWrapper className="mb-12 mt-28 flex flex-col items-center justify-center text center">
-          <div className="flex flex-col justify-center items-center pt-10 pb-10 space-y-12 lg:flex-row lg:space-x-20 lg:pt-12">
+          <div className="flex flex-col justify-center items-center pt-10 pb-10 space-y-0 lg:flex-row lg:space-x-20 lg:pt-12">
             <div className="flex flex-col w-80 text-center">
-              <h1 className="text-xl text-zinc-700 mb-6">
+              <h1 className="text-xl text-red-800 font-semibold mb-6">
                 Our Corporate Office Address:
               </h1>
               <p>
@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
 
             <div className="flex flex-col w-80 text-center">
-              <h1 className="text-xl text-zinc-700 mb-6">
+              <h1 className="text-xl text-red-800 font-semibold mb-6">
                 Additional Office Address:
               </h1>
               <p>
